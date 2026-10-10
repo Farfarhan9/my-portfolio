@@ -11,7 +11,7 @@ const PROFILE = {
   email: "mfkzin2442@gmail.com",
   location: "Rawang ,Selangor, Malaysia",
   github: "https://github.com/Farfarhan9",
-  linkedin: "www.linkedin.com/in/muhdfarhanzin",
+  linkedin: "https://www.linkedin.com/in/muhdfarhanzin",
   resume: "./resume.pdf", 
 };
 
