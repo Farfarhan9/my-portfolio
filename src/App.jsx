@@ -12,7 +12,7 @@ const PROFILE = {
   location: "Rawang ,Selangor, Malaysia",
   github: "https://github.com/Farfarhan9",
   linkedin: "www.linkedin.com/in/muhdfarhanzin",
-  resume: "/resume.pdf", 
+  resume: "./resume.pdf", 
 };
 
 const NAV = [
@@ -45,26 +45,26 @@ const PROJECTS = [
       "Full-stack dental clinic management system with role-based access control and patient appointment booking",
     tags: ["Java", "JSP", "MySQL", "Eclipse IDE"],
     github: "https://github.com/Farfarhan9/DentalClinicSystem",
-    demo: "/demo-dental-clinic.mp4",
-    report: "dental-report.pdf",
+    demo: "./demo-dental-clinic.mp4",
+    report: "./dental-report.pdf",
   },
   {
     title: "Azura House Restaurant Automation System",
     description:
       "Restaurant automation platform with QR table ordering, admin sales analytics, and a dynamic inventory system that automatically updates stock via recipe links.",
     tags: ["Java", "JSP", "Gson (JSON)", "Eclipse IDE"],
-    github: "https://github.com/Farfarhan9/AzuraHouse",
-    demo: "/demo-azurahouse.mp4",
-    report: "AzuraHouse-report.pdf",
+    github: "https://github.com/Farfarhan9/AzuraHouseProject",
+    demo: "./demo-azurahouse.mp4",
+    report: "./AzuraHouse-report.pdf",
   },
   {
     title: "Tic-Tac-Toe",
     description:
       "Scalable Tic-Tac-Toe game with a customizable 3x3 to 6x6 grid, local leaderboard storage via MySQL, and four difficulty levels including a Minimax bot.",
     tags: ["Java Swing", "MySQL", "Minimax AI", "Eclipse IDE"],
-    github: "https://github.com/Farfarhan9/TicTacToe",
-    demo: "/demo-tic-tac-toe.mp4",
-    report: "/tictactoe-report.pdf",
+    github: "https://github.com/Farfarhan9/vp-tic-tac-toe",
+    demo: "./demo-tic-tac-toe.mp4",
+    report: "./tictactoe-report.pdf",
   },
 ];
 
@@ -227,7 +227,7 @@ function Hero() {
         {/* Code card in place of a photo */}
         {/* Hero Right Column: Profile Image */}
         <img
-          src="/profile.png"
+          src="./profile.png"
           alt={PROFILE.name}
           className="mx-auto w-full max-w-sm rounded-2xl shadow-xl"
         />
